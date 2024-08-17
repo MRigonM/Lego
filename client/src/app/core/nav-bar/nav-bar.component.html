@@ -1,0 +1,26 @@
+<header class="d-flex flex-row align-items-center justify-content-between p-3 px-4 bg-white
+ border-bottom fixed-top shadow-sm">
+ 
+    <img class="logo" src="/assets/images/logo.png" alt="logo" style="max-height: 63px;" routerLink ="/">
+    <nav class="my-2 text-uppercase fs-4">
+        <a class="p-2" 
+        routerLink ="/" 
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact:true}"
+        >Home</a>
+        <a class="p-2" routerLink ="/shop" routerLinkActive="active">Shop</a>
+        <a class="p-2" routerLink ="/test-error" routerLinkActive="active">Errors</a>
+      </nav>
+
+      <div class="d-flex align-items-center">
+      <a routerLink="/basket" class="position-relative">
+        <i class="fa fa-shopping-cart fa-2x me-5 text-dark"></i>
+        <div *ngIf="(basketService.basketSource$ |async) as basket" class="cart-no">
+          {{getCount(basket.items)}}
+        </div>
+      </a>
+      <a href="" class="btn btn-outline-secondary me-2">Sign in</a>
+      <a href="" class="btn btn-outline-secondary me-3">Sign up</a>
+    </div>
+      
+  </header>
