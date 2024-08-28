@@ -80,7 +80,7 @@
       "ProductBrandId": 1
     },
     {
-      "Name": "Darth Vader™ Helmet",
+      "Name": "Darth Vader™ Mech",
       "Description": "Pay homage to the Dark Lord of the Sith with this collectible LEGO® Star Wars™ Darth Vader Helmet (75304). Immerse yourself in the complex building process and relive classic Star Wars saga scenes as you recreate the iconic shape and sinister details of the helmet in LEGO style.",
       "Price": 15,
       "PictureUrl": "images/products/darthVader.webp",
@@ -142,5 +142,47 @@
       "PictureUrl": "images/products/venator.webp",
       "ProductTypeId": 3,
       "ProductBrandId": 1
+    },
+
+    {
+      "Name": "Harry Potter™ & Cho Chang",
+      "Description": "Fans can relive epic Quidditch™ games as they build these LEGO® BrickHeadz™ Harry Potter™ & Cho Chang (40616) figures. With authentic details such as the Gryffindor™ and Ravenclaw™ house Quidditch uniforms, plus Golden Snitch™ and broomstick accessory elements, the buildable duo make a magical anytime LEGO gift for kids aged 10 and up and any Harry Potter collector.",
+      "Price": 20,
+      "PictureUrl": "images/products/harryPotterChoChang.webp",
+      "ProductTypeId": 1,
+      "ProductBrandId": 7
+    },
+    {
+      "Name": "The Amazing Spider-Man",
+      "Description": "Celebrate one of the world’s most beloved Super Heroes with The Amazing Spider-Man (31209) LEGO® Art building set. This unique dimensional piece of art is made from layers of LEGO bricks in which Spider-Man breaks out from the frame and his head and fingers can be put into different poses. Pay homage to a comic-book Super Hero This bold artwork features several details to delight Spider-Man fans. The backdrop replicates the comic book’s Ben-Day-dot printing technique, there are 15 spiders to represent issue no. 15 of Amazing Fantasy in which Spider-Man first appeared in August 1962, and a graphic in the bottom corner with the words: 'The Amazing Spider-Man'.",
+      "Price": 190,
+      "PictureUrl": "images/products/spiderMan.webp",
+      "ProductTypeId": 1,
+      "ProductBrandId": 3
+    },
+    {
+      "Name": "Durrr Burger",
+      "Description": "Based on the LEGO Fortnite video game, the set lets fans create a display model of Durrr Burger, the iconic restaurant mascot from the Fortnite universe. Young gamers will have loads of fun and victory well done building the model before discovering its exciting details, including the instantly recognizable eyes, tongue and olive on a toothpick.",
+      "Price": 180,
+      "PictureUrl": "images/products/durrrBurger.webp",
+      "ProductTypeId": 1,
+      "ProductBrandId": 8
+    },
+    {
+      "Name": "Supply Llama",
+      "Description": "Bring gaming adventures to life with this LEGO® Fortnite Supply Llama (77071) building set for gamers. Inspired by the LEGO Fortnite video game, it lets fans aged 12 and up create an awesome video game toy. Young gamers will have hours of fun assembling the Fortnite llama piñata, which is known as the Supply Llama in the LEGO Fortnite video game. ",
+      "Price": 40,
+      "PictureUrl": "images/products/llama.webp",
+      "ProductTypeId": 1,
+      "ProductBrandId": 8
+    },
+    {
+      "Name": "The Avengers Helicarrier",
+      "Description": "LEGO® Marvel The Avengers Helicarrier (76295) is a recreation of the iconic Avengers aircraft from Marvel Studios’ hit movies The Avengers and Avengers: Age of Ultron. With 509 pieces and a sturdy base, this collectible aircraft for adult fans makes a distinctive display piece in any home or office.",
+      "Price": 80,
+      "PictureUrl": "images/products/Avengers.webp",
+      "ProductTypeId": 3,
+      "ProductBrandId": 3
     }
+
   ]
