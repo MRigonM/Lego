@@ -1,0 +1,157 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\desktop.ini",
+      "PackagePath": "staticwebassets\\images\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\Avengers.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Avengers.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\Cruiser.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Cruiser.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\Disney.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Disney.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\atAt.webp",
+      "PackagePath": "staticwebassets\\images\\products\\atAt.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\batMobile.webp",
+      "PackagePath": "staticwebassets\\images\\products\\batMobile.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\batcave.webp",
+      "PackagePath": "staticwebassets\\images\\products\\batcave.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\batcave2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\batcave2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\darthVaderi.webp",
+      "PackagePath": "staticwebassets\\images\\products\\darthVaderi.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\darthVaderr.webp",
+      "PackagePath": "staticwebassets\\images\\products\\darthVaderr.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\disneyCastle2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\disneyCastle2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\durrrBurger.webp",
+      "PackagePath": "staticwebassets\\images\\products\\durrrBurger.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\eveWalle.webp",
+      "PackagePath": "staticwebassets\\images\\products\\eveWalle.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\falcon.webp",
+      "PackagePath": "staticwebassets\\images\\products\\falcon.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\gauntlet.webp",
+      "PackagePath": "staticwebassets\\images\\products\\gauntlet.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\greenGoblin.webp",
+      "PackagePath": "staticwebassets\\images\\products\\greenGoblin.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\harryPotterChoChang.webp",
+      "PackagePath": "staticwebassets\\images\\products\\harryPotterChoChang.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\hogwarts.webp",
+      "PackagePath": "staticwebassets\\images\\products\\hogwarts.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\hogwartsTrain.webp",
+      "PackagePath": "staticwebassets\\images\\products\\hogwartsTrain.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\ironSpider.webp",
+      "PackagePath": "staticwebassets\\images\\products\\ironSpider.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\llama.webp",
+      "PackagePath": "staticwebassets\\images\\products\\llama.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\mcLaren2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\mcLaren2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\mcLarenCar.webp",
+      "PackagePath": "staticwebassets\\images\\products\\mcLarenCar.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\r2d2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\r2d2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\space.webp",
+      "PackagePath": "staticwebassets\\images\\products\\space.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\spaceAstronaut.webp",
+      "PackagePath": "staticwebassets\\images\\products\\spaceAstronaut.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\spaceShuttle.webp",
+      "PackagePath": "staticwebassets\\images\\products\\spaceShuttle.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\spider.webp",
+      "PackagePath": "staticwebassets\\images\\products\\spider.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\spiderMan.webp",
+      "PackagePath": "staticwebassets\\images\\products\\spiderMan.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\spideri.webp",
+      "PackagePath": "staticwebassets\\images\\products\\spideri.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\stitch.webp",
+      "PackagePath": "staticwebassets\\images\\products\\stitch.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\stitchh.webp",
+      "PackagePath": "staticwebassets\\images\\products\\stitchh.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\venator.webp",
+      "PackagePath": "staticwebassets\\images\\products\\venator.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\wwwroot\\images\\products\\walle.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\walle.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
