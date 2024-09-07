@@ -28,6 +28,19 @@ export class RegisterComponent {
       error : error =>this.errors =error.errors
     })
   }
-  
+  validateEmailNotTaken():AsyncValidatorFn {
+    return(control : AbstractControl) =>{
+      return control.valueChanges .pipe(
+        debounceTime(1000),
+        take(1),
+        switchMap(()=>{
+        return this.accountService.checkEmailExists(control.value).pipe(
+        map(result => result ? {emailExists : true} : null),
+        finalize(() => control.markAsTouched())
+        )
+      })
+    )
+  }
+}
 
 }
