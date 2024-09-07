@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dc1seG6n3aVK/gqhEAT7FvdSoe1ClPMu0m5MUkZsT10VV2fX+HonYCm2NbV61R3ZT3NHjIP0NBiZqf4qxLIgFg==",
+  "dgSpecHash": "bJBFtS2lqKSGsDhQ819zUW2EqRprLDEOSaGHWWfdJ31eWMcTANh60Ub8IP4YY11P+6mJ6t8duUtU41NFHFsPig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo Legion\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo Legion\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

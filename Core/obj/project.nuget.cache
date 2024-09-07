@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "K6zeIhjl85oqaUi063spZ/9GnDQqIYi2JcZe6tbcvASO2r9TyfdnjQeQdLtu6MMQHtbtOlPHMZgIyHeMj7kElQ==",
+  "dgSpecHash": "ChfxB81b8siuqLfAAHLnRRuLGkncnrT+FvogDTLghD7tc8az04WjyR3M4l9RYzPY+A4SAkBtL+eaHinqbny7Mg==",
   "success": true,
-  "projectFilePath": "/Users/saraujkani/Downloads/Lego-Shop-main/Core/Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.5\\microsoft.aspnetcore.cryptography.internal.8.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.5\\microsoft.aspnetcore.cryptography.keyderivation.8.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.5\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.5\\microsoft.entityframeworkcore.analyzers.8.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.5\\microsoft.entityframeworkcore.relational.8.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.5\\microsoft.extensions.identity.core.8.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.5\\microsoft.extensions.identity.stores.8.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\Lenovo Legion\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

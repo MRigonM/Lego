@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/saraujkani/Downloads/Lego-Shop-main/Infrastructure/Infrastructure.csproj": {}
+    "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/saraujkani/Downloads/Lego-Shop-main/Core/Core.csproj": {
+    "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/saraujkani/Downloads/Lego-Shop-main/Core/Core.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/saraujkani/Downloads/Lego-Shop-main/Core/Core.csproj",
-        "packagesPath": "/Users/saraujkani/.nuget/packages/",
-        "outputPath": "/Users/saraujkani/Downloads/Lego-Shop-main/Core/obj/",
+        "projectPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Lenovo Legion\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/saraujkani/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo Legion\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/saraujkani/Downloads/Lego-Shop-main/Infrastructure/Infrastructure.csproj": {
+    "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/saraujkani/Downloads/Lego-Shop-main/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/saraujkani/Downloads/Lego-Shop-main/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/Users/saraujkani/.nuget/packages/",
-        "outputPath": "/Users/saraujkani/Downloads/Lego-Shop-main/Infrastructure/obj/",
+        "projectPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Lenovo Legion\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/saraujkani/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo Legion\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -84,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/saraujkani/Downloads/Lego-Shop-main/Core/Core.csproj": {
-                "projectPath": "/Users/saraujkani/Downloads/Lego-Shop-main/Core/Core.csproj"
+              "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\Core.csproj"
               }
             }
           }
@@ -105,13 +111,25 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.5.2, )"
+            },
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.7.33, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.2, )"
             }
           },
           "imports": [
@@ -130,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

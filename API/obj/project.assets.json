@@ -4774,11 +4774,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Lenovo Legion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\API\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo Legion\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4793,8 +4793,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\RigonLegoRepo\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
