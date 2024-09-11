@@ -1,4 +1,4 @@
-  import { Component } from '@angular/core';
+import { Component } from '@angular/core';
 import { BasketService } from './basket.service';
 import { BasketItem } from '../shared/models/basket';
 
