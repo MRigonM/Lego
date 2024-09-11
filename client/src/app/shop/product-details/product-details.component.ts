@@ -3,7 +3,6 @@ import { Product } from 'src/app/shared/models/product';
 import { ShopService } from '../shop.service';
 import { ActivatedRoute } from '@angular/router';
 import { BreadcrumbComponent, BreadcrumbService } from 'xng-breadcrumb';
-import { Breadcrumb } from 'xng-breadcrumb/lib/types/breadcrumb';
 import { BasketService } from 'src/app/basket/basket.service';
 import { take } from 'rxjs';
 
@@ -43,16 +42,16 @@ export class ProductDetailsComponent implements OnInit {
         })
       },
       error: error=> console.log(error)
-    }) 
+    })
   }
-  
+
   incrementQuantity(){
     this.quantity++;
   }
   decrementQuantity(){
     if (this.quantity > 0) this.quantity--;
   }
-  
+
   updateBasket() {
     if(this.product){
       if(this.quantity > this.quantityInBasket){

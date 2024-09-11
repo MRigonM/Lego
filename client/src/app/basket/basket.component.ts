@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+  import { Component } from '@angular/core';
 import { BasketService } from './basket.service';
 import { BasketItem } from '../shared/models/basket';
 
@@ -14,7 +14,7 @@ export class BasketComponent {
   incerementQuantity(item : BasketItem){
     this.basketService.addItemToBasket(item);
   }
-  
+
   removeItem(event :{id:number,quantity:number}){
     this.basketService.removeItemFromBasket(event.id,event.quantity);
   }
