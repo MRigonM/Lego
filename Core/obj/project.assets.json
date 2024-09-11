@@ -820,11 +820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "c:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Lenovo Legion\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo Legion\\Documents\\GitHub\\Lego\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo Legion\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -845,11 +845,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
