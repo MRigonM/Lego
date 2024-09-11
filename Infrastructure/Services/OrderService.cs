@@ -35,7 +35,7 @@ namespace Infrastructure.Services
             var deliveryMethod = await _unitOfWork.Repository<DeliveryMethod>().GetByIdAsync(deliveryMethodId);
             var subtotal = items.Sum(item =>item.Price * item.Quantity);
 
-            var order = new Order(items,buyerEmail,shippingAddress,deliveryMethod,subtotal);
+            var order = new Order(items,buyerEmail,shippingAddress,deliveryMethod,subtotal,basket.PaymentIntentId);
             _unitOfWork.Repository<Order>().Add(order);
 
             var result = await _unitOfWork.Complete();
