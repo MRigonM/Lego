@@ -3,6 +3,7 @@ using Core.Entities.OrderAggregate;
 using Core.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Stripe;
+using Order = Core.Entities.OrderAggregate.Order;
 using Product = Core.Entities.Product;
 
 namespace Infrastructure.Services
@@ -70,6 +71,16 @@ namespace Infrastructure.Services
             await _basketRepository.UpdateBasketAsync(basket);
 
             return basket;
+        }
+
+        public Task<Order> UpdateOrderPaymentSucceeded(string paymentIntentId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Order> UpdateOrderPaymentFailed(string paymentIntentId)
+        {
+            throw new NotImplementedException();
         }
     }
 }
