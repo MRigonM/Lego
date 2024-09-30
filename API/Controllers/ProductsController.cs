@@ -4,10 +4,7 @@ using AutoMapper;
 using Core.Entities;
 using Core.Interfaces;
 using Core.Specifications;
-using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using API.Helpers;
 
 namespace API.Controllers
@@ -30,7 +27,8 @@ namespace API.Controllers
             _productsTypeRepo = productsTypeRepo;
             _mapper = mapper;
         }
-
+        
+        [Cached(600)]
         [HttpGet]
         public async Task<ActionResult<IReadOnlyList<ProductToReturnDto>>> GetProducts
         ([FromQuery] ProductSpecParams productParams)
@@ -43,7 +41,7 @@ namespace API.Controllers
 
             return Ok(new Pagination<ProductToReturnDto>(productParams.PageIndex, productParams.PageSize, totalItems, data));
         }
-
+        [Cached(600)]
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
@@ -59,15 +57,75 @@ namespace API.Controllers
 
             return _mapper.Map<Product, ProductToReturnDto>(product);
         }
+        
+        [Cached(600)]
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands()
         {
             return Ok(await _productsBrandRepo.ListAllAsync());
         }
+        
+        [Cached(600)]
         [HttpGet("types")]
         public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes()
         {
             return Ok(await _productsTypeRepo.ListAllAsync());
         }
+        
+        [HttpPost]
+        public async Task<ActionResult<ProductToReturnDto>> CreateProduct(ProductCreateDto productDto)
+        {
+            var product = _mapper.Map<ProductCreateDto, Product>(productDto);
+    
+            _productsRepo.Add(product);
+            var result = await _productsRepo.SaveAllAsync();
+
+            if (result <= 0)
+            {
+                return BadRequest(new ApiResponse(400, "Problem creating product"));
+            }
+
+            var productToReturn = _mapper.Map<Product, ProductToReturnDto>(product);
+
+            return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, productToReturn);
+        }
+        
+        [HttpPut("{id}")]
+        public async Task<ActionResult> UpdateProduct(int id, ProductUpdateDto productDto)
+        {
+            var product = await _productsRepo.GetByIdAsync(id);
+
+            if (product == null) 
+                return NotFound(new ApiResponse(404, "Product not found"));
+
+            _mapper.Map(productDto, product);
+
+            _productsRepo.Update(product);
+            var result = await _productsRepo.SaveAllAsync();
+
+            if (result <= 0)
+                return BadRequest(new ApiResponse(400, "Problem updating product"));
+
+            return Ok(new { message = "Product updated successfully" });
+        }
+        
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteProduct(int id)
+        {
+            var product = await _productsRepo.GetByIdAsync(id);
+
+            if (product == null)
+                return NotFound(new ApiResponse(404, "Product not found"));
+
+            _productsRepo.Delete(product);
+            var result = await _productsRepo.SaveAllAsync();
+
+            if (result <= 0)
+                return BadRequest(new ApiResponse(400, "Problem deleting product"));
+
+            return Ok(new { message = "Product deleted successfully" });
+        }
+
+
     }
 }
