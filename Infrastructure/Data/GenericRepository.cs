@@ -45,6 +45,11 @@ namespace Infrastructure.Data
             return await ApplySpecification(spec).CountAsync();
         }
 
+        public async Task<int> SaveAllAsync()
+        {
+            return await _context.SaveChangesAsync();
+        }
+
         public void Add(T entity)
         {
             _context.Set<T>().Add(entity);
